@@ -1,6 +1,6 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap");
 
 /* 
 color palette - macchiato
@@ -9,16 +9,16 @@ https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md
 
 /* header */
 header {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #title {
-    background-color: #181926;
-    color: #a4adcb;
+  background-color: #181926;
+  color: #a4adcb;
 }
 /* body */
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: #24273a;
-    color: #cad3f5;
+  font-family: "Inter", sans-serif;
+  background-color: #24273a;
+  color: #cad3f5;
 }
