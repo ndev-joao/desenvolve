@@ -30,9 +30,7 @@ body {
   margin: 0%;
 }
 
-header img {
-  width: 100%;
-}
+
   /*nav*/
   nav {
     text-align: center;
@@ -49,11 +47,18 @@ header img {
 /* section - main */
 main {
   background-color: #1e2030;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 main p {
   margin: 0%;
   padding: 1rem;
+}
+
+main img {
+  width: 50%;
 }
 /* section - main */
 
