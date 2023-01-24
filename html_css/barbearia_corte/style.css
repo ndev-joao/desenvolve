@@ -1,6 +1,11 @@
-/* fonts and colors */
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+
+/* 
+color palette - macchiato
+https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md 
+*/
 
 /* header */
 header {
