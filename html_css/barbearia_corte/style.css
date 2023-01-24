@@ -5,10 +5,15 @@
 /* header */
 header {
     font-family: 'Montserrat', sans-serif;
-    background-color: aquamarine;
 }
 
+#title {
+    background-color: #181926;
+    color: #a4adcb;
+}
 /* body */
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #24273a;
+    color: #cad3f5;
 }
