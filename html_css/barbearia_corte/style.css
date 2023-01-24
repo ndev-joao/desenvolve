@@ -10,22 +10,6 @@ https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md
 
 
 /* body */
-
-  /* header */
-  #pageHeader {
-    font-family: "Montserrat", sans-serif;
-  }
-
-  #title {
-  background-color: #181926;
-  color: #a4adcb;
-  }
-
-  header img {
-    width: 100%;
-  }
-  /* */
-
 body {
   font-family: "Inter", sans-serif;
   background-color: #24273a;
@@ -33,11 +17,39 @@ body {
   margin: 0%;
 }
 
-.beneficioItens {
-  font-style: italic;
+
+/* header */
+#pageHeader {
+  font-family: "Montserrat", sans-serif;
 }
 
-  /* footer */
-  footer {
-    font-size:small;
-  }
+#title {
+  background-color: #181926;
+  color: #a4adcb;
+}
+
+header img {
+  width: 100%;
+}
+/* */
+
+main {
+  background-color: #1e2030;
+}
+
+/* section - diferencial */
+#diferencial {
+  text-align: center;
+  background-color: #303446;
+}
+#beneficio {
+  padding: 0%;
+}
+/* */
+
+/* footer */
+footer {
+  font-size:small;
+  text-align:center;
+}
+/* */
