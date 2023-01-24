@@ -26,30 +26,60 @@ body {
 #title {
   background-color: #181926;
   color: #a4adcb;
+  padding: 2rem;
+  margin: 0%;
 }
 
 header img {
   width: 100%;
 }
-/* */
+  /*nav*/
+  nav {
+    text-align: center;
+    padding: 0.5rem;
+  }
 
+  nav a {
+    color: #cad3f5;
+  }
+
+/* header */
+
+
+/* section - main */
 main {
   background-color: #1e2030;
 }
+
+main p {
+  margin: 0%;
+  padding: 1rem;
+}
+/* section - main */
+
 
 /* section - diferencial */
 #diferencial {
   text-align: center;
   background-color: #303446;
 }
+
+#diferencial h2 {
+  margin: 0%;
+  padding: 1rem;
+}
+
 #beneficio {
   padding: 0%;
+  padding-bottom: 1rem;
 }
-/* */
+/* section - diferencial */
+
+
 
 /* footer */
 footer {
   font-size:small;
   text-align:center;
 }
-/* */
+/* footer */
