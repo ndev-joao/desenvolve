@@ -108,10 +108,14 @@ body {
   width: 30%;
   vertical-align: top;
   background-color: #181926;
-  margin: 0 1.5%;
+  margin: 5% 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
   border-radius: 5%;
+}
+
+.corte:hover {
+  border: 2px solid #8aadf4;
 }
 
 .corte-descricao {
