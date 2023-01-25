@@ -23,23 +23,40 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#title {
+#navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: #181926;
-  color: #a4adcb;
-  padding: 2rem;
-  margin: 0%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 18px;
 }
 
+#navBarTitle {
+  text-align: center;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  /*nav*/
-  nav {
-    text-align: center;
-    padding: 0.5rem;
-  }
+.navBarItem {
+  float: right;
+}
 
-  nav a {
-    color: #cad3f5;
-  }
+.navBarItem a {
+  display: block;
+  color: #cad3f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBarItem a:hover {
+  background-color: #11111b;
+}
 
 /* header */
 
@@ -52,32 +69,20 @@ main {
   justify-content: center
 }
 
-main p {
-  margin: 0%;
-  padding: 1rem;
+#mainContent {
+  width: 35%;
+  font-size: 18px;
 }
 
 main img {
   width: 50%;
+  scale: 0.9;
 }
 /* section - main */
 
 
 /* section - diferencial */
-#diferencial {
-  text-align: center;
-  background-color: #303446;
-}
 
-#diferencial h2 {
-  margin: 0%;
-  padding: 1rem;
-}
-
-#beneficio {
-  padding: 0%;
-  padding-bottom: 1rem;
-}
 /* section - diferencial */
 
 
