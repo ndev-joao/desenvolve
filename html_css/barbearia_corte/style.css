@@ -5,8 +5,9 @@
 /* 
 color palette -  catppucin macchiato
 https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md 
-*/
 
+https://github.com/catppuccin/catppuccin
+*/
 
 
 /* body */
@@ -58,7 +59,7 @@ body {
   background-color: #11111b;
 }
 
-/* header */
+/* -----------------------  */
 
 
 /* section - main */
@@ -78,7 +79,7 @@ body {
   width: 50%;
   scale: 0.85;
 }
-/* section - main */
+/* -----------------------  */
 
 
 /* section - diferencial */
@@ -90,7 +91,7 @@ body {
   list-style-type: none;
   padding: 30px;
 }
-/* section - diferencial */
+/* ----------------------- */
 
 
 
@@ -99,4 +100,4 @@ footer {
   font-size:small;
   text-align:center;
 }
-/* footer */
+/* -----------------------  */
