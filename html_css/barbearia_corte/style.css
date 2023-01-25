@@ -34,6 +34,7 @@ body {
   top: 0;
   width: 100%;
   font-size: 18px;
+  font-weight:bold;
 }
 
 .navbar-title {
@@ -67,7 +68,8 @@ body {
   background-color: #1e2030;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  margin: 0 0 20px 0px;
 }
 
 .main-content {
@@ -81,6 +83,49 @@ body {
 }
 /* -----------------------  */
 
+
+/* section - produtos */
+
+.produtos {
+  width:fit-content;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtos img {
+  border-radius: 5%;
+}
+
+.corte {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  background-color: #181926;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+
+.corte-descricao {
+  font-size: 18px;
+}
+
+.corte-preco {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+/* ----------------------- */
 
 /* section - diferencial */
 .section-diferencial {
