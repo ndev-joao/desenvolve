@@ -19,23 +19,23 @@ body {
 
 
 /* header */
-#pageHeader {
+.header {
   font-family: "Montserrat", sans-serif;
 }
 
-#navBar {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #181926;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   font-size: 18px;
 }
 
-#navBarTitle {
+.navbar-title {
   text-align: center;
   float: left;
   padding: 14px 16px;
@@ -62,21 +62,21 @@ body {
 
 
 /* section - main */
-main {
+.main {
   background-color: #1e2030;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
-#mainContent {
+.main-content {
   width: 35%;
   font-size: 18px;
 }
 
-main img {
+.main-image {
   width: 50%;
-  scale: 0.9;
+  scale: 0.85;
 }
 /* section - main */
 
