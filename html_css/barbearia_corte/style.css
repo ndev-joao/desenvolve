@@ -82,7 +82,14 @@ body {
 
 
 /* section - diferencial */
+.section-diferencial {
+  text-align: center;
+}
 
+.beneficios {
+  list-style-type: none;
+  padding: 30px;
+}
 /* section - diferencial */
 
 
