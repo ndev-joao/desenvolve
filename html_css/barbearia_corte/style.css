@@ -146,8 +146,10 @@ body {
 
 /* footer */
 footer {
+  background-color: #11111b;
   font-size:small;
   text-align:center;
+  padding: 2%;
 }
 /* -----------------------  */
 
