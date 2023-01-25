@@ -42,11 +42,11 @@ body {
   text-decoration: none;
 }
 
-.navBarItem {
+.navbar-item {
   float: right;
 }
 
-.navBarItem a {
+.navbar-item a {
   display: block;
   color: #cad3f5;
   text-align: center;
@@ -54,7 +54,7 @@ body {
   text-decoration: none;
 }
 
-.navBarItem a:hover {
+.navbar-item a:hover {
   background-color: #11111b;
 }
 
