@@ -11,6 +11,10 @@ https://github.com/catppuccin/catppuccin
 
 
 /* body */
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: #24273a;
