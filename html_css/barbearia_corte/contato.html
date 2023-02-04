@@ -24,15 +24,34 @@
     </header>
     <main class="contact">
         <form>
-            <label>Nome</label>
+            <label for="name_user">Nome</label>
             <input type="text" id="name_user">
     
-            <label>Email</label>
+            <label for="email_user">Email</label>
             <input type="text" id="email_user">
     
-            <label>Telefone</label>
+            <label for="phone_user">Telefone</label>
             <input type="text" id="phone_user">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email">E-mail</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
     
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+    
+                <label for= “radio-whatsapp”>WhatsApp</label>
+                <input type="radio" name="contato" value=“whatsapp” id=“radio-whatsapp”>
+            </div>
+            
+            <label>
+                <input type="checkbox">Gostaria de receber nossas novidades por e-mail?
+            </label>
+
             <input type="submit" value="Enviar informaçöes" id="submit">
         </form>
     </main>

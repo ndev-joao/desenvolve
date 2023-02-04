@@ -194,6 +194,9 @@ footer {
   width: 350px;
 }
 
+.contact #mensagem {
+  margin: 0 auto;
+}
 .contact #submit {
   display: block;
   margin: 25px 0 0 0;
