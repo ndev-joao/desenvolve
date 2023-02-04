@@ -184,18 +184,22 @@ footer {
   margin: 40px 0;
 }
 
-.contact form label {
+.contact form label, .contact form p {
   display: block;
   margin: 20px 0 5px 0;
 }
 
-.contact form input {
+.contact .input-padrao , .contact form textarea {
   padding: 5px 25px;
   width: 350px;
 }
 
 .contact #mensagem {
   margin: 0 auto;
+}
+
+.contact .checkbox {
+  margin: 20px 0;
 }
 .contact #submit {
   display: block;
