@@ -115,6 +115,7 @@ body {
   padding: 30px 20px;
   box-sizing: border-box;
   border-radius: 5%;
+  border: 2px solid #181926;
 }
 
 .corte:hover {
@@ -178,6 +179,8 @@ footer {
   width: 940px;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .contact form {
@@ -199,7 +202,7 @@ footer {
 }
 
 .contact .checkbox {
-  margin: 20px 0;
+  margin: 15px 0 20px 0px;
 }
 .contact #submit {
   display: block;
