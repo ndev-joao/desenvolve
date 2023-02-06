@@ -1,3 +1,5 @@
 # Programa Desenvolve - Trilha Fullstack
 
-Lista de Projetos
+## Conteúdos
+
+- [Barbearia Alura](./html_css/barbearia_corte/readme.md)
