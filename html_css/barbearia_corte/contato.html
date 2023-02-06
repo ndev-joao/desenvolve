@@ -15,29 +15,31 @@
                 <li class="navbar-title">Barbearia Corte</li>
                 <!-- <li><img class="navbar-icon" src="imgs/barbeiro.svg"></li> -->
                 <li class="navbar-item"><a href="contato.html">Contato</a></li>
-                <li class="navbar-item"><a href="">Sobre</a></li>
-                <li class="navbar-item"><a href="">Produtos</a></li>
-                <li class="navbar-item"><a href="index.html">Home</a></li>
+                <li class="navbar-item"><a href="produtos.html">Produtos</a></li>
+                <li class="navbar-item"><a href="index.html">Sobre</a></li>
             </ul>
             </ul>
         </nav>
     </header>
     <main class="contact">
         <form>
-            <label for="name_user">Nome</label>
-            <input class="input-padrao"  type="text" id="name_user">
+            <fieldset>
+                <legend>Dados</legend>
+                <label for="name_user">Nome</label>
+                <input class="input-padrao"  type="text" id="name_user" required placeholder="Nome completo">
+        
+                <label for="email_user">Email</label>
+                <input class="input-padrao" type="email" id="email_user" required placeholder="seuemail@email.com">
+        
+                <label for="phone_user">Telefone</label>
+                <input class="input-padrao"  type="tel" id="phone_user" required placeholder="(XX) XXXXX-XXXX">
     
-            <label for="email_user">Email</label>
-            <input class="input-padrao" type="text" id="email_user">
-    
-            <label for="phone_user">Telefone</label>
-            <input class="input-padrao"  type="text" id="phone_user">
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" required placeholder="Escreva aqui sua mensagem."></textarea>
+            </fieldset>
 
-            <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem"></textarea>
-
-            <div>
-                <p>Como prefere nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
                 <label for="radio-email">
                     <input type="radio" name="contato" value="email" id="radio-email">
                     E-mail
@@ -53,7 +55,7 @@
                     <input type="radio" name="contato" value=“whatsapp” id=“radio-whatsapp”>
                     WhatsApp
                 </label>
-            </div>
+            </fieldset>
             
             <label>
                 <input class="checkbox" type="checkbox"> Gostaria de receber nossas novidades por e-mail?

@@ -151,6 +151,12 @@ footer {
   font-size:small;
   text-align:center;
   padding: 2%;
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 /* -----------------------  */
 
@@ -176,7 +182,7 @@ footer {
 /* ----------------------- */
 
 .contact {
-  width: 940px;
+  width: auto;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -193,18 +199,34 @@ footer {
 }
 
 .contact .input-padrao , .contact form textarea {
-  padding: 5px 25px;
+  padding: 5px 20px;
   width: 350px;
+  border-radius: 6%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact #mensagem {
   margin: 0 auto;
+  border-radius: 2%;
+  font-family: "Montserrat", sans-serif;
 }
+
 
 .contact .checkbox {
   margin: 15px 0 20px 0px;
 }
 .contact #submit {
   display: block;
-  margin: 25px 0 0 0;
+  margin: 35px auto;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #8aadf4;
+  border-radius: 5%;
+  border: none;
+}
+
+.contact fieldset {
+  margin: 50px 0;
+  border-radius:  5%;
+  border: none;
 }
