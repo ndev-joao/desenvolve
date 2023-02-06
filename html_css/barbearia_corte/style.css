@@ -213,7 +213,7 @@ footer {
 
 
 .contact .checkbox {
-  margin: 15px 0 20px 0px;
+  margin: 0px 0 20px 0px;
 }
 .contact #submit {
   display: block;
@@ -229,4 +229,9 @@ footer {
   margin: 50px 0;
   border-radius:  5%;
   border: none;
+}
+
+.contact fieldset legend {
+  font-size: large;
+  font-weight: bold;
 }
