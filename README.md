@@ -1,2 +1,5 @@
 # Programa Desenvolve - Trilha Fullstack
-Repo criado com objetivo de compartilhar o aprendizado e projetos realizados durante o programa Desenvolve - GB
+
+## Conteúdos
+
+- [Barbearia Alura](./html_css/barbearia_corte/readme.md)
