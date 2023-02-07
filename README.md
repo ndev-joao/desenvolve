@@ -2,4 +2,4 @@
 
 ## Conteúdos
 
-- [Barbearia Alura](./html_css/barbearia_corte/readme.md)
+- [HTML 1, 2, 3 e 4](./html_css/barbearia_corte/readme.md)
