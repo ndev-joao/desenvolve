@@ -248,7 +248,7 @@ footer {
   font-family: "Montserrat", sans-serif;
 }
 
-.contact #mensagem {
+/* .contact #mensagem {
   margin: 0 auto;
   border-radius: 15px;
   font-family: "Montserrat", sans-serif;
@@ -257,7 +257,7 @@ footer {
 
 .contact .checkbox {
   margin: 0px 0 20px 0px;
-}
+} */
 .contact #submit {
   display: block;
   margin: 35px auto;
@@ -285,3 +285,38 @@ footer {
   font-weight: bold;
 }
 /* ----------------------- */
+
+@media screen and (max-width: 480px) {
+
+  .navbar-title {
+    display: none;
+  }
+
+  .navbar-item {
+    float: initial;
+    box-shadow: 2px 2px 2px #11111b;
+  }
+  
+  .main {
+    flex-direction: column;
+  }
+
+  .main-content {
+    width: auto;
+    padding: 10%;
+  }
+
+  .main-image {
+    padding: 10px 0 80px;
+  }
+
+  .produtos, .corte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+  }
+  
+}
