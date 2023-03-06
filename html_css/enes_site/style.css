@@ -20,10 +20,13 @@ body {
   background-color: #24273a;
   color: #cad3f5;
   margin: 0%;
+  height: 100%;
 }
 
-h1 {
+.main {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  text-shadow: #161824 3px 4px;
 }
