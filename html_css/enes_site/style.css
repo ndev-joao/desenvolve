@@ -23,10 +23,32 @@ body {
   height: 100%;
 }
 
-.main {
+.button-box {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
-  text-shadow: #161824 3px 4px;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  font-size: large;
+  padding: 1rem 2.5rem;
+  margin-top: 1.5rem;
+  color: #cad3f5;
+  box-sizing: border-box;
+  
+}
+
+.button:hover {
+  scale: 1.1;
+}
+
+.icon {
+  vertical-align: middle;
+  height: 3em;
+  width: auto;
+  justify-content: center;
 }
