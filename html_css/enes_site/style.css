@@ -1,17 +1,15 @@
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap");
 
 /* 
 color palette -  catppucin macchiato
 https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md 
 
-https://github.com/catppuccin/catppuccin
+https://github.com/catppuccuccin/catppuccin
 */
 
-
 /* body */
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -19,8 +17,7 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #24273a;
   color: #cad3f5;
-  margin: 0%;
-  height: 100%;
+  margin: 0;
 }
 
 .button-box {
@@ -47,5 +44,4 @@ body {
 
 .icon {
   height: 3em;
-  width: auto;
 }
